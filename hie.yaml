@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "YourEye:lib"
+
+    - path: "./app/Main.hs"
+      component: "YourEye:exe:YourEye-exe"
+
+    - path: "./app/Paths_YourEye.hs"
+      component: "YourEye:exe:YourEye-exe"
+
+    - path: "./test"
+      component: "YourEye:test:YourEye-test"
